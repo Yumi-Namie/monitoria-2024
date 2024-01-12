@@ -1,0 +1,18 @@
+//Terminal
+
+pwd - directorio local
+ls - listado
+mkdir - crear carpeta
+cd - cambiar de directorio
+mv - mover 
+rm - borrar
+rm -r - borrar carpetas
+code - abrir el fichero en vscode
+touch - crear archivo nuevo
+cat - leer un archivo
+
+// clonar
+
+git clone + enlace 
+git clone + enlace + . machacar la carpeta original
+git clone + enlace + nombre nuevo
