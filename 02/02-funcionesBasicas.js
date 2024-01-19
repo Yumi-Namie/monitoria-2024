@@ -7,7 +7,14 @@ function sumarCinco(numero) {
     return resultado
 }
 
+
 //MULTIPLICAR 2
+function multiplicarPorDos (arbol) {
+    const resul = arbol * 2
+    console.log(result)
+    return resultado
+}
+
 //RESTAR 3
 
 //LLAMAR FUNCIONES
