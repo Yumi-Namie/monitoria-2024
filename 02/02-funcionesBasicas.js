@@ -7,6 +7,7 @@ function sumarCinco(numero) {
     return resultado
 }
 
+
 //MULTIPLICAR 2
 function multiplicarDos(numero){
     const resultado = numero * 2
