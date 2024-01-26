@@ -1,0 +1,2 @@
+//Si estas en la misma branch el codigo seria git branch -m nuevo nombre
+//Si estas en una branch diferente git branch -m branch vieja branch nueva
