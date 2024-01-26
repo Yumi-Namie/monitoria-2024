@@ -17,5 +17,7 @@ function multiplicarPorDos (arbol) {
 
 //RESTAR 3
 
+
+
 //LLAMAR FUNCIONES
 const resultadoSuma = sumarCinco(2)
