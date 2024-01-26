@@ -16,3 +16,26 @@ cat - leer un archivo
 git clone + enlace 
 git clone + enlace + . machacar la carpeta original
 git clone + enlace + nombre nuevo
+
+// Github
+git branch clase01: chuleta, desafio, funciones, password
+git branch -a (lista de ramas creadas en local)
+( se puede dar un commit - git commit -m "new branch bla bla")
+git push origin new_branch 
+
+//Ramas
+main - principal - solo archivos buenos (todo el equipo)
+dev - development branch - en desarrollo (grupo / pareja)
+features - mini tareas (funcionalidades)
+
+git switch o se puede usar git checkout para cambiar de ramas
+git merge nombre_rama
+
+//Borrar rama:
+git branch -D nombre_branch
+//Borrar rama remota: 
+git push origin --delete nombre_branch
+
+git status
+git commit -m "xxxx"
+git push
