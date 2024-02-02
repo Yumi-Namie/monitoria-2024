@@ -1,2 +1,8 @@
 La refactorización es el proceso de reestructurar y reescribir el código sin cambiar su comportamiento externo. 
 El objetivo principal de la refactorización es mejorar la legibilidad, mantenibilidad y eficiencia del código sin alterar su funcionalidad.
+
+Legibilidad - dividir una funccion larga en una más pequeña con nombres descriptivos
+eficiencia
+mantenibilidad
+Escalabilidad
+manejo de errores
