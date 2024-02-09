@@ -8,9 +8,12 @@ function sumarCinco(numero) {
 
 //MULTIPLICAR 2
 function multiplicarDos(numero){
-    const resultado = numero * 2
+    const multiplicarPorDos = numero => numero * 2;
     return resultado
 }
+
+
+
 //RESTAR 3
 function restarTres(num){
     const result = num - 3
@@ -28,6 +31,13 @@ function realizarOperacion(operacion, numero){
     mostrarResult(resultado)
 }
 
+function multiplicarPorDos(numero){
+    console.log(`Resultado da multiplicação por 2: ${resultado}`);
+    return numero*2
+}
+
+
 //llamar funcion
 realizarOperacion(sumarCinco, 10)
+realizarOperacion(multiplicarPorDos, 6) //12
 
