@@ -17,6 +17,12 @@ function restarTres(num){
     return result
 }
 
+//DIVIDIR 2
+function dividir(num){
+    const result = num / 2
+    return result
+}
+
 //imprimir el resultado
 function mostrarResult(resultado){
     console.log(`Resultado: ${resultado}`)
@@ -31,3 +37,9 @@ function realizarOperacion(operacion, numero){
 //llamar funcion
 realizarOperacion(sumarCinco, 10)
 
+function operacionFuncion(operacion, numero){
+    const result = operacion(numero);
+    resultado(result)
+}
+resultado(dividir,8)
+console.log(resultado)
