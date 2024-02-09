@@ -7,19 +7,48 @@ ejecutar con node + nombre_archivo (node objetos.js)*/
 // >> objeto 1:
 let perro1 = {nombre:"rex", edad:5, vivo:true};
 // >> objeto 2:
-// let perro2 = {nombre:"toby", edad:8, vivo:false};
+let perro2 = {nombre:"toby", edad:8, vivo:false};
 
 
-console.log(perro1);
+// console.log(perro1);
 // console.log(perro2);
-// console.log("el nombre del perro2 es: " + perro2.nombre);
+// console.log("el nombre del perro2 es: " + perro2.vivo);
 
 
+// function Dog (nombre, edad, vivo) {
+//   this.name = nombre;
+//   this.age = edad;
+//   this.life = vivo
+// }
 
+class Dog {
+  constructor(nombre, edad, vivo) {
+    this.name = nombre;
+    this.age = edad;
+    this.life = vivo
+  }
+}
 
+let perro3 = new Dog("Pity", 3, true)
 
+// console.log(perro3)
 
+//LISTA DE OBJETOS
+let dogList = [perro1, perro2, perro3]
+console.log("Array:" + dogList)
 
+gatos = [
+  {
+    name:"felix",
+    edad:"5"
+  },
+  {
+    name:"Tom",
+    edad: "3"
+  }
+]
+
+console.log(gatos[1])
 
 
 
