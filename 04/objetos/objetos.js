@@ -35,7 +35,7 @@ let perro3 = new Dog("Pity", 3, true)
 
 //LISTA DE OBJETOS
 let dogList = [perro1, perro2, perro3]
-console.log("Array:" + dogList)
+console.log("Array:", dogList)
 
 gatos = [
   {
@@ -48,7 +48,7 @@ gatos = [
   }
 ]
 
-console.log(gatos[1])
+// console.log(gatos[1])
 
 
 
