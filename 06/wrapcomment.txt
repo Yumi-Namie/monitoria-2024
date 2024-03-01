@@ -1,0 +1,7 @@
+/*
+
+ALT + Z
+
+La función 'Wrap Comment' en Visual Studio Code se refiere a la capacidad de ajustar automáticamente la visualización de comentarios largos para que se ajusten al ancho de la ventana de código. Cuando activas 'Wrap Comment', el editor organiza el texto del comentario de manera que se ajuste de manera legible en la pantalla, dividiéndolo en líneas más cortas. Esto es útil cuando tienes comentarios extensos que podrían extenderse más allá del ancho visible de tu ventana de código, facilitando la lectura y comprensión del código fuente.
+
+*/

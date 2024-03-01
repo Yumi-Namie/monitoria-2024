@@ -16,3 +16,20 @@ function contarVocales(palabra) {
 contarVocales("Tostadora")
 
 //Problema 2: Validar Contraseña - while
+function validarContrasena(contrasena){
+
+    let esValida = false;
+
+    while (!esValida) {
+        if (contrasena.length >= 6) {
+            esValida = true;
+            console.log("La contraseña  es valida")
+        } else {
+            esValida = false;
+            console.log("La contraseña no es valida")
+            break
+        }
+    }
+}
+
+// validarContrasena("tostadera")
